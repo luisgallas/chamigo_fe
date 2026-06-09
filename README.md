@@ -1,33 +1,10 @@
-### Chamigo FE
+# Chamigo FE
 
-Integracion de Factura Electronica para Chamigo
+Integración de Factura Electrónica para ERPNext.
 
-### Installation
+## Contenido
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+- DocType Factura Electronica
+- Server Script Crear Factura Electronica
+- Preparación para sincronizador externo
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch main
-bench install-app chamigo_fe
-```
-
-### Contributing
-
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/chamigo_fe
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### License
-
-mit
