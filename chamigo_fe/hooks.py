@@ -271,3 +271,14 @@ fixtures = [
         ]
     }
 ]
+
+# Custom Fields para Factura Electronica
+fixtures += [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["dt", "=", "Factura Electronica"],
+            ["fieldname", "in", ["cdc", "estado_sifen"]]
+        ]
+    }
+]
